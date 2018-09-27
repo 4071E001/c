@@ -125,10 +125,54 @@ int main(void)
 }    
 ```
 錯7
+//#include <stdio.h>
+//#include <stdlib.h>
+int main(void)
+{
+   .printf("Hello 偉大的恩師!\n");   	/* 印出Hello 偉大的恩師! 字串 */
+   printf("Hello Taiwan!\n");   /* 印出Hello Taiwan! 字串 */   
+   
+//  system("pause");
+   return ;
+   printf("Hello World!\n");
+}    
 ```
 錯8
+//#include <stdio.h>
+//#include <stdlib.h>
+int main(void)
+{
+   printf("Hello 偉大的恩師!\n");   	/* 印出Hello 偉大的恩師! 字串 */
+  in printf("Hello Taiwan!\n");   /* 印出Hello Taiwan! 字串 */   
+   
+//  system("pause");
+   return ;
+   printf("Hello World!\n");
+}    
 ```
 錯9
+//#include <stdio.h>
+//#include <stdlib.h>
+int main(void)
+{
+   printf<"Hello 偉大的恩師!\n">;   	/* 印出Hello 偉大的恩師! 字串 */
+   printf("Hello Taiwan!\n");   /* 印出Hello Taiwan! 字串 */   
+   
+//  system("pause");
+   return ;
+   printf("Hello World!\n");
+}    
 ```
 錯10
+//#include <stdio.h>
+//#include <stdlib.h>
+int main(void)
+{
+   printf(Hello 偉大的恩師!\n");   	/* 印出Hello 偉大的恩師! 字串 */
+   printf("Hello Taiwan!\n");   /* 印出Hello Taiwan! 字串 */   
+   
+//  system("pause");
+   return ;
+   printf("Hello World!\n");
+}    
 ```
