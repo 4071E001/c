@@ -1,1 +1,8 @@
+python
+gedit py300_1.py
+python3 py300_1.py
 
+C
+gedit c300_1.c
+gcc  c300_1.c
+ls
