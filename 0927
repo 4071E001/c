@@ -18,18 +18,18 @@ int main(void)
 ```
 ```
 Question 1:#include <stdio.h>
-include 是何意義??
-stdio有何用途?
-std英文全名為何?
-i是何意義??o是何意義??
+include 是何意義??稱為文件包含命令，其意義是把尖括號""或引號<>內指定的文件包含到本程序來，成為本程序的一部分
+stdio有何用途?主要是定義了輸入輸出的函數
+std英文全名為何?standard "標準"的意思
+i是何意義??input 輸入 o是何意義??output 輸出
 h = header =標頭檔有何用途? 
 https://zh.wikipedia.org/wiki/Stdio.h
 ```
 ```
 Question 2:#include <stdlib.h>
-stdlib有何用途?
-std英文全名為何?
-lib是何意義??
+stdlib有何用途?一般用途上的庫函數，提供了包括動態內存管理，隨機數生成，進程管理，整數計算，搜索，排序和轉換的功能函數
+std英文全名為何?standard "標準"的意思
+lib是何意義??library "庫"的意思
 https://zh.wikipedia.org/wiki/Stdlib.h
 ```
 ```
