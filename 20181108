@@ -14,3 +14,6 @@ scanf( )	輸入函式
 int   %d	整數
 float %f	浮點數
 char  %c	字元
+
+特殊運算式    基本運算式
+a += b       a = a + b
