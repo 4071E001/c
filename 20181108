@@ -1,7 +1,7 @@
-star()
-add()
-display()
-abs()
-power(x,n)
-sum()
-fac()
+star()函數
+add()函數
+display()字元列印函數
+abs()絕對值函數
+power(x,n) 次方函數
+sum()累加函數
+fac()階乘函數
