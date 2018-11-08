@@ -10,6 +10,7 @@ fac()階乘函數
 printf( )	輸出函式
 scanf( )	輸入函式
 
-%d	整數
-%f	浮點數
-%c	字元
+型態
+int   %d	整數
+float %f	浮點數
+char  %c	字元
