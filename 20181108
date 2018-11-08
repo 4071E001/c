@@ -5,3 +5,7 @@ abs()絕對值函數
 power(x,n) 次方函數
 sum()累加函數
 fac()階乘函數
+
+
+printf( )	輸出函式
+scanf( )	輸入函式
