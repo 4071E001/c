@@ -3,12 +3,14 @@
 #include <stdlib.h>
 
 int main(void)
-{ 
-int a=1,b=1,c,i; 
-for (i = 0; i < c; i++) 
-{ 
-c = a + b;   
-printf("%d", c); 
-return c;
-} 
+{
+    int a=1,b=1,c,n; 
+	printf("請輸入數字：");
+    scanf("%d", &n);
+	for(c=0; c<=n; c++) 
+	{ 
+		c=a+b;   
+		printf("%d", c); 
+		return c;
+	} 
 }
