@@ -7,8 +7,6 @@ int main(void)
    for(i=1;i<=401;i+=4)			
    	sum+=i;
     printf("1+5+9+...+401=%d\n",sum);
-   
-   system("pause");
    return 0;
 }
 
@@ -26,7 +24,6 @@ int main(void)
    }
    
    printf("1+5+9+...+401=%d\n",sum);
-   system("pause");
    return 0;
 }
 
@@ -44,6 +41,5 @@ int main(void)
    }
    while(i<=401);
    printf("1+5+9+...+401=%d\n",sum);
-   system("pause");
    return 0;
 }
