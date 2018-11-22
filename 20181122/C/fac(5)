@@ -1,1 +1,89 @@
+/*for loop，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+void  fac_for(int);	
+int main(void)
+{
+   fac_for(5);			
+   system("pause");
+   return 0;
+}
+
+void fac_for(int a)	
+{
+   int i,total=1;
+   for(i=1;i<=a;i++)
+   { 
+   total*=i;
+   }
+   printf("fac(5)=5*4*3*2*1=5!=%d\n",total);	
+}
+
+
+/*while loop，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+void  fac_while(int);	
+int main(void)
+{
+   fac_while(5);			
+   system("pause");
+   return 0;
+}
+
+void fac_while(int a)	
+{
+   int i=1,total=1;
+   while(i<=a) 
+   {
+   total*=i;
+   i++;
+   } 
+   printf("fac(5)=5*4*3*2*1=5!=%d\n",total);	
+}
+
+
+/*dowhile loop，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+void  fac_dowhile(int);	
+int main(void)
+{
+   fac_dowhile(5);			
+   system("pause");
+   return 0;
+}
+
+void fac_dowhile(int a)	
+{
+   int i=1,total=1;
+   do
+   {
+   total*=i;
+   i++;
+   } 
+   while(i<=a); 
+   printf("fac(5)=5*4*3*2*1=5!=%d\n",total);	
+}
+
+
+/*  遞迴函數，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+int fac(int);    
+int main(void)
+{
+   printf("fac(5)=5*4*3*2*1=5!=%d\n", fac(5)); 
+
+   system("pause");
+   return 0;
+}
+
+int fac(int n)	
+{
+   if(n>0)
+      return (n*fac(n-1));
+   else
+      return 1;
+}
 
