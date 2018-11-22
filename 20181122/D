@@ -1,1 +1,14 @@
+/*for loop，計算費式 */
+#include <stdio.h>
+#include <stdlib.h>
 
+int main(void)
+{ 
+int a=1,b=1,c,i; 
+for (i = 0; i < c; i++) 
+{ 
+c = a + b;   
+printf("%d", c); 
+return c;
+} 
+}
