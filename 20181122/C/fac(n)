@@ -1,1 +1,65 @@
+/*for loop，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+
+{
+   int i,total=1,n;
+   printf("請輸入數字：");
+   scanf("%d", &n);
+   for(i=1;i<=n;i++)
+   { 
+   total*=i;
+   }
+   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1",n,n,n,n);	
+   system("pause");
+   return 0;
+
+}
+
+
+
+/*while loop，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+
+{
+   int i=1,total=1,n;
+   printf("請輸入數字：");
+   scanf("%d", &n);
+   while(i<=n)
+   { 
+   total*=i;
+   i++;
+   }
+   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1",n,n,n,n);	
+   system("pause");
+   return 0;
+}
+
+
+/*dowhile loop，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+
+{
+   int i=1,total=1,n;
+   printf("請輸入數字：");
+   scanf("%d", &n);
+  
+  do
+   { 
+   total*=i;
+   i++;
+   } 
+   while(i<=n);
+   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1",n,n,n,n);	
+   system("pause");
+   return 0;
+}
 
