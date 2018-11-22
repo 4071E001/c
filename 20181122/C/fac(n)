@@ -12,7 +12,7 @@ int main(void)
    { 
    total*=i;
    }
-   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1",n,n,n,n);	
+   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1=%d",n,n,n,n,total);	
    system("pause");
    return 0;
 
@@ -35,7 +35,7 @@ int main(void)
    total*=i;
    i++;
    }
-   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1",n,n,n,n);	
+   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1=%d",n,n,n,n,total);	
    system("pause");
    return 0;
 }
@@ -58,7 +58,7 @@ int main(void)
    i++;
    } 
    while(i<=n);
-   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1",n,n,n,n);	
+   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1=%d",n,n,n,n,total);	
    system("pause");
    return 0;
 }
