@@ -16,7 +16,6 @@ void fac_for(int a)
    { 
    total*=i;
    }
-  
    printf("fac(5)=5*4*3*2*1=5!=%d\n",total);	
 }
 
@@ -66,3 +65,26 @@ void fac_dowhile(int a)
    while(i<=a); 
    printf("fac(5)=5*4*3*2*1=5!=%d\n",total);	
 }
+
+```
+
+/*  遞迴函數，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+int fac(int);    
+int main(void)
+{
+   printf("fac(5)=5*4*3*2*1=5!=%d\n", fac(5)); 
+
+   system("pause");
+   return 0;
+}
+
+int fac(int n)	
+{
+   if(n>0)
+      return (n*fac(n-1));
+   else
+      return 1;
+}
+
