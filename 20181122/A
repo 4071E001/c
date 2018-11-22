@@ -22,7 +22,6 @@ int main(void)
     sum+=i;
     i+=4;
    }
-   
    printf("1+5+9+...+401=%d\n",sum);
    return 0;
 }
