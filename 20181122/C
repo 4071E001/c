@@ -60,3 +60,27 @@ void fac_while(int a)
    }  
    printf("fac(5)=5*4*3*2*1=5!=%d\n",total);	
 }
+
+/*dowhile loop，計算階乘 */
+#include <stdio.h>
+#include <stdlib.h>
+void  fac_dowhile(int);	
+int main(void)
+{
+   fac_dowhile(5);			
+   system("pause");
+   return 0;
+}
+
+void fac_dowhile(int a)	
+{
+   int i=1,total=1;
+   do
+   {
+   total*=i;
+   i++;
+   } 
+   while(i<=a); 
+   printf("fac(5)=5*4*3*2*1=5!=%d\n",total);	
+}
+
