@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 int main(void)
-
 {
    int i,total=1,n;
    printf("請輸入數字：");
@@ -13,9 +12,7 @@ int main(void)
    total*=i;
    }
    printf("fac(%d)=%d!=%d*(%d-1)*...*2*1=%d",n,n,n,n,total);	
-   system("pause");
    return 0;
-
 }
 
 
@@ -25,7 +22,6 @@ int main(void)
 #include <stdlib.h>
 
 int main(void)
-
 {
    int i=1,total=1,n;
    printf("請輸入數字：");
@@ -36,7 +32,6 @@ int main(void)
    i++;
    }
    printf("fac(%d)=%d!=%d*(%d-1)*...*2*1=%d",n,n,n,n,total);	
-   system("pause");
    return 0;
 }
 
@@ -46,7 +41,6 @@ int main(void)
 #include <stdlib.h>
 
 int main(void)
-
 {
    int i=1,total=1,n;
    printf("請輸入數字：");
@@ -58,8 +52,7 @@ int main(void)
    i++;
    } 
    while(i<=n);
-   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1=%d",n,n,n,n,total);	
-   system("pause");
+   printf("fac(%d)=%d!=%d*(%d-1)*...*2*1=%d",n,n,n,n,total);
    return 0;
 }
 
