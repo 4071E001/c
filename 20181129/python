@@ -45,7 +45,7 @@ ex:兩種 1.使用format() 2.使用%
 
 選擇:If |if-else| ..沒有switch
 迴圈::while | for loop |沒有do-while
-range break continue
+range break continue  -range(1,5) 是1到4
 Nested loop
 
 
