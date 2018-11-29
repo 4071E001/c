@@ -1,0 +1,41 @@
+https://colab.research.google.com/notebooks/welcome.ipynb  ->Colaboratory
+https://github.com/MyDearGreatTeacher/Python/tree/master/MyFirstPython  ->老師
+
+
+
+#!/usr/bin/env python
+#coding=utf-8
+
+# radius = 25 
+# Input(輸入):Prompt the user to enter a radius
+radius = eval(input("Enter a number for radius: "))
+
+# Processing(處理):Compute area
+area = radius * radius * 3.1415962
+
+# Output(輸出):Display results
+print("The area for the circle of radius", radius, "is", area)
+
+1.#!/usr/bin/env python 是何用意??
+2.#coding=utf-8是何用意??
+3.input()函式功能為何?有何參數??
+4.eval()函式功能為何?
+5.print()函式功能為何?
+
+符號描述
+     %c	 格式化字元及其ASCII碼
+     %s	 格式化字串
+     %d	 格式化整數
+     %u	 格式化無符號整型
+     %o	 格式化無符號八進位數
+     %x	 格式化無符號十六進位數
+     %X	 格式化無符號十六進位數（大寫）
+     %f	 格式化浮點數字，可指定小數點後的精度
+     %e	 用科學計數法格式化浮點數
+     %E	 作用同%e，用科學計數法格式化浮點數
+     %g	 %f和%e的簡寫
+     %G	 %f 和 %E 的簡寫
+     %p	 用十六進位數格式化變數的位址
+ex:兩種 1.使用format() 2.使用%
+'%c' % 97    ->'a'
+"{0} love {1}......{2}".format("I","listening","classical Music")
