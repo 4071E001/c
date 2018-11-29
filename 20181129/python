@@ -132,3 +132,8 @@ print "var2[1:5]: ", var2[1:5]## var2[1:5]是1到4
 var1[0]:  H
 var2[1:5]:  ytho
 
+
+
+Python2、Python3差別
+[] ->2
+() ->3
