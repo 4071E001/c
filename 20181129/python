@@ -39,3 +39,79 @@ print("The area for the circle of radius", radius, "is", area)
 ex:兩種 1.使用format() 2.使用%
 '%c' % 97    ->'a'
 "{0} love {1}......{2}".format("I","listening","classical Music")  ->'I love listening......classical Music'
+
+
+
+
+選擇:If |if-else| ..沒有switch
+迴圈::while | for loop |沒有do-while
+range break continue
+Nested loop
+
+
+
+
+len()  ->算個數
+ex:
+words = ['cat', 'window', 'defenestrate']
+for w in words:
+print w, len(w)
+->
+cat 3
+window 6
+defenestrate 12
+
+
+
+
+in ->從頭到尾
+score = [70, 90, 78, 85, 97, 94, 65, 80]
+s = 0
+for i in score:
+	s += i
+     
+     
+     
+     
+ 新增新資料    
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+ 
+list = []          ## 建立空的list
+list.append('Google')   ## 使用 append() 添加元素
+list.append('KSU當選')
+print list
+print(s / len(score))
+  
+  
+  
+  
+更新字典內容 
+#!/usr/bin/env python
+#coding=utf-8
+
+dict = {'Name': 'Zara', 'Age': 27, 'Class': 'First'}
+ 
+dict['Age'] = 38 
+dict['School'] = "KSU" 
+ 
+print "dict['Age']: ", dict['Age']
+print "dict['School']: ", dict['School']
+->
+dict['Age']:  38
+dict['School']:  KSU
+
+
+
+列表|串列(list)資料型態及其運算 ->排序是0 1 2 3 ...第一個是0
+#!/usr/bin/env python
+#coding=utf-8
+ 
+list1 = ['physics', 'chemistry', 1997, 2000]
+list2 = [1, 2, 3, 4, 5, 6, 7 ]
+ 
+print "list1[0]: ", list1[0] ## 0是第一個
+print "list2[1:5]: ", list2[1:5] ## list2[1:5]是1到4
+->
+list1[0]:  physics
+list2[1:5]:  [2, 3, 4, 5]
