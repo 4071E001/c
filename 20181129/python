@@ -64,11 +64,13 @@ defenestrate 12
 
 
 
+
 in ->從頭到尾
 score = [70, 90, 78, 85, 97, 94, 65, 80]
 s = 0
 for i in score:
 	s += i
+     
      
      
      
@@ -82,6 +84,8 @@ list.append('Google')   ## 使用 append() 添加元素
 list.append('KSU當選')
 print list
 print(s / len(score))
+  
+  
   
   
   
@@ -103,6 +107,9 @@ dict['School']:  KSU
 
 
 
+
+
+
 列表|串列(list)資料型態及其運算 ->排序是0 1 2 3 ...第一個是0
 #!/usr/bin/env python
 #coding=utf-8
@@ -119,6 +126,7 @@ list2[1:5]:  [2, 3, 4, 5]
 
 
 
+
 字串(string)資料型態及其運算
 #!/usr/bin/env python
 #coding=utf-8
@@ -131,6 +139,24 @@ print "var2[1:5]: ", var2[1:5]## var2[1:5]是1到4
 ->
 var1[0]:  H
 var2[1:5]:  ytho
+
+
+
+
+
+辭典|字典(dic)資料型態及其運算 ->如果重複最後的一個鍵值對會替換前面的
+dict = {key1 : value1, key2 : value2 }
+
+dict = {'a': 1, 'b': 2, 'b': '3'}
+dict['b']
+dict
+->
+{'a': 1, 'b': '3'}
+
+
+
+
+
 
 
 
