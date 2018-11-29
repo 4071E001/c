@@ -38,4 +38,4 @@ print("The area for the circle of radius", radius, "is", area)
      %p	 用十六進位數格式化變數的位址
 ex:兩種 1.使用format() 2.使用%
 '%c' % 97    ->'a'
-"{0} love {1}......{2}".format("I","listening","classical Music")
+"{0} love {1}......{2}".format("I","listening","classical Music")  ->'I love listening......classical Music'
