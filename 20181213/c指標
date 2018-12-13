@@ -1,4 +1,4 @@
-int *ptr,num = 20;  ---> 整數num變數 = 20
+# int *ptr,num = 20;  ---> 整數num變數 = 20
 ptr=&num;
 
 假如num存放的位址是?000000000062FE44 
