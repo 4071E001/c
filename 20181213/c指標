@@ -53,3 +53,30 @@ int main(void)
    printf("*myptr=______, myptr=________, &myptr=_________\n",________,_________,__________); --->%d, %p, %p, *myptr, myptr, &myptr
    system("pause");
    return 0;
+   
+   
+   #include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+   int a=5,b=10;
+   int *ptr1,*ptr2;
+   ptr1=&a;				/* ptr1設為a的位址 */
+   ptr2=&b;			 	/* ptr2設為b的位址 */
+   *ptr1=7;			 	/* a設為7 */
+   *ptr2=32;			/* b設為32 */
+   a=17;			 	   /* a設為17 */
+   ptr1=ptr2;		 	/* 設定ptr1=b的位址=&b */
+   *ptr1=9;		 	 	/* 將ptr1指向的內容設為9 --->b=9*/	
+   ptr1=&a;		 	 	/* 將ptr1=a的位址=&a */
+   a=64;            		/* 設定a為64 */
+   *ptr2=*ptr1+5; 	 	/* 將ptr2指向的內容設為*ptr1+5 --->b=69=64+5*/
+   ptr2=&a;		 		/* 將ptr2設為a的位址ptr2=a的位址=&a */
+   
+   printf("a=%2d, b=%2d, *ptr1=%2d, *ptr2=%2d\n",a,b,*ptr1,*ptr2);
+   printf("ptr1=%p, ptr2=%p\n",ptr1,ptr2);   
+   printf("&ptr1=%p, &ptr2=%p\n",&ptr1,&ptr2); 
+   system("pause");
+   return 0;
+}
+
