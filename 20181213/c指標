@@ -1,4 +1,5 @@
 # int *ptr,num = 20;  ---> 整數num變數 = 20
+```
 ptr=&num;
 
 假如num存放的位址是?000000000062FE44 
@@ -6,7 +7,7 @@ ptr=&num;
 *ptr --->取num值     *ptr=20
 ptr  --->取num位址   ptr=000000000062FE44
 &ptr --->取ptr位址   &ptr=000000000062FE48
-
+```
 
 
 #include <stdio.h> 
