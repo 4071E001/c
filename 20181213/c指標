@@ -1,0 +1,3 @@
+int num = 20;   整數num變數 = 20
+int *ptr = &num;
+*ptr ->指標
