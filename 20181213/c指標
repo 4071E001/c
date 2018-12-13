@@ -13,7 +13,7 @@ ptr  --->取num位址   ptr=000000000062FE44
 #include <stdlib.h>
 int main(void)
 {
-   int *ptr,d=100,num=20,c=33; /*存取位址方向->後往前 c num d ptr*/
+   int *ptr,d=100,num=20,c=33; /*存取位址方向->由後往前 c num d ptr*/
 
    ptr=&num;			
    printf("num=%d, &num=%p\n",num,&num); 
