@@ -9,7 +9,7 @@ ptr  --->取num位址   ptr=000000000062FE44
 &ptr --->取ptr位址   &ptr=000000000062FE48
 ```
 
-
+```
 #include <stdio.h> 
 #include <stdlib.h>
 int main(void)
