@@ -1,3 +1,43 @@
 int num = 20;   整數num變數 = 20
 int *ptr = &num;
-*ptr ->指標
+*ptr ->取值
+&ptr ->取位址
+指標
+
+#include <stdio.h> 
+#include <stdlib.h>
+int main(void)
+{
+   int *ptr,num=20;	/* 宣告變數num與指標變數ptr */
+
+   ptr=&num;			/* 將num的位址設給指標ptr存放 */
+   printf("num=%d, &num=%p\n",num,&num); 
+   printf("*ptr=%d, ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr); 
+   system("pause");
+   return 0;
+}
+->
+num=20, &num=000000000062FE44
+*ptr=20, ptr=000000000062FE44, &ptr=000000000062FE48
+
+
+
+#include <stdio.h> 
+#include <stdlib.h>
+int main(void)
+{
+   int *ptr,d=100,num=20,b=33;	/* 宣告變數num與指標變數ptr */
+
+   ptr=&num;			/* 將num的位址設給指標ptr存放 */
+   printf("ptr=%p, &ptr=%p\n",*ptr,ptr,&ptr);
+   printf("d=%d, &d=%p\n",d,&d); 
+   printf("num=%d, &num=%p\n",num,&num); 
+   printf("b=%d, &b=%p\n",b,&b); 
+   system("pause");
+   return 0;
+}
+->
+ptr=000000000062FE40, &ptr=000000000062FE48
+d=100, &d=000000000062FE44
+num=20, &num=000000000062FE40
+b=33, &b=000000000062FE3C
