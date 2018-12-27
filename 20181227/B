@@ -1,4 +1,5 @@
-B-1
+將每一個陣列元素都加60
+[1]
 #include <stdio.h> 
 #include <stdlib.h>
 int main(void)
