@@ -1,4 +1,7 @@
-A-1
+取出最大元素
+取出最小元素
+
+[1]
 #include <stdio.h> 
 #include <stdlib.h>
 int main(void)
