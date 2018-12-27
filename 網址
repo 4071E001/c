@@ -5,3 +5,24 @@ https://github.com/MyDearGreatTeacher/Python/tree/master/MyFirstPython  ->老師
 http://books.gotop.com.tw/download/ACL046100  ->Python
 
 https://github.com/MyDearGreatTeacher    ->老師
+
+
+star()函數
+add()函數
+display()字元列印函數
+abs()絕對值函數
+power(x,n) 次方函數
+sum()累加函數
+fac()階乘函數
+
+
+printf( )	輸出函式
+scanf( )	輸入函式
+
+型態
+int   %d	整數
+float %f	浮點數
+char  %c	字元
+
+特殊運算式    基本運算式
+a += b       a = a + b
