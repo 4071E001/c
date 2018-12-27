@@ -1,0 +1,48 @@
+使用下列三種方式存取陣列的元素
+[1]使用index存取
+[2]使用pointer(指標變數)存取:陣列名稱==>pointer(指標變數
+[3]使用pointer(指標變數)存取:利用一個pointer(指標變數)ptr指向陣列在移動指標去存取元素
+
+計算一維陣列內所有元素的和 int a[5]={11,22,33,44,55};
+A.取出最大元素
+  取出最小元素
+B.將每一個陣列元素都加60
+C.將每一個元素都依照位置(i)加上某一值(i+1)*5 ===>a[5]={11+5,22+10,33+15,44+20,55+25}*/
+
+A-1)
+#include <stdio.h> 
+#include <stdlib.h>
+int main(void)
+{
+    int i,a[5]={11,22,33,44,55},max=a[0],min=a[0];
+   
+    for (i=1;i<5;i++)
+    {	
+		if(max<*(a+i))
+		  max=*(a+i);
+		  
+		else if(min>*(a+i))
+			min=*(a+i);
+	}
+		printf("max=%d\n",max);
+		printf("min=%d\n",min);
+	
+   system("pause");
+   return 0;
+}
+
+B-1)
+#include <stdio.h> 
+#include <stdlib.h>
+int main(void)
+{
+    int i,a[5]={11,22,33,44,55};
+   
+    for (i=0;i<5;i++)
+    {	
+	*(a+i)=*(a+i)+60;
+		printf("*(a+%d)=%d\n",i,*(a+i));
+	}
+   system("pause");
+   return 0;
+}
