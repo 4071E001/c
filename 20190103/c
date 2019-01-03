@@ -4,6 +4,40 @@ OUTPUT輸出:三個正整數中最大值(MAX)
 (1)使用一個函數int MAX()
 (2)使用一個回傳address的函數int *MAX()
 
+
+(1)
+#include <stdio.h>
+#include <stdlib.h>
+
+int MAX(int,int,int);		/* 宣告函數max()的原型 */
+
+int main(void)
+{
+   int a=5,b=9,c=3,ptr;
+  
+   ptr=MAX(a,b,c);
+
+   printf("MAX=%d\n",ptr);
+   
+   system("pause");
+   return 0;
+}
+
+int MAX(int p1, int p2, int p3)
+{
+   if(p1>p2 and p1>p3)
+      return p1;
+   else if(p3>p1 and p3>p2)
+      return p3;
+      else
+      return p2;
+}
+
+
+
+
+
+
 (2)
 #include <stdio.h>
 #include <stdlib.h>
