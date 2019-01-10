@@ -13,34 +13,4 @@ Obama  18080001  78
 學號18080001的trump同學程式設計成績是79
 學號18080002的Obama同學程式設計成績是78
 ---------------------------------------
-#include <stdio.h>
-#include <stdlib.h>
-#define MAX 2
-int main(void)
-{
-   int i;
-   struct data		/* 定義結構 */
-   {
-       char name[10]; 
-       int studentID;
-	   int prog;  /* prog=程式設計 */
-   } student[MAX];
-   
-   for(i=0;i<MAX;i++)
-   {
-    printf("請輸入姓名:");
-	gets(student[i].name); 
-	printf("請輸入學號:");
-	scanf("%d",&student[i].studentID);
-	printf("請輸入程式設計成績:");
-	scanf("%d",&student[i].prog);
-	fflush(stdin);
-   }
-    
-for(i=0;i<MAX;i++)	
-   printf("學號%d的%s同學程式設計成績是%d\n",student[i].studentID,student[i].name,student[i].prog);
-   
-   system("pause");
-   return 0;
-} 
- 
+
