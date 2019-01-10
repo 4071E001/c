@@ -1,0 +1,46 @@
+宣告一個結構體student
+其成員包括
+一個字串代表其英文性名(不能超過10個字)
+一個學號(如18080001,資料型態為整數)
+一個程式設計成績(prog,資料型態為整數)
+
+利用student結構體建立兩筆學生資料
+trump  18080001  79
+Obama  18080001  78
+
+程式需再螢幕顯示出下列兩型資料
+
+學號18080001的trump同學程式設計成績是79
+學號18080002的Obama同學程式設計成績是78
+---------------------------------------
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 2
+int main(void)
+{
+   int i;
+   struct data		/* 定義結構 */
+   {
+       char name[10]; 
+       int studentID;
+	   int prog;  /* prog=程式設計 */
+   } student[MAX];
+   
+   for(i=0;i<MAX;i++)
+   {
+    printf("請輸入姓名:");
+	gets(student[i].name); 
+	printf("請輸入學號:");
+	scanf("%d",&student[i].studentID);
+	printf("請輸入程式設計成績:");
+	scanf("%d",&student[i].prog);
+	fflush(stdin);
+   }
+    
+for(i=0;i<MAX;i++)	
+   printf("學號%d的%s同學程式設計成績是%d\n",student[i].studentID,student[i].name,student[i].prog);
+   
+   system("pause");
+   return 0;
+} 
+ 
